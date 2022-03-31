@@ -1,0 +1,68 @@
+<NotepadPlus>
+    <UserLang name="Odyssey-MDL" ext="ascii" udlVersion="2.1">
+	<!-- Odyssey MDL for Notepad++
+	Star Wars: Knights of the Old Republic & Star Wars: Knights of the Old Republic II - The Sith Lords version
+	(c) 2022 ebmar / Open - Free & open only if project also open
+	based on Aurora MDL - MDL Language Definitions for Text Editors (c) 2016 Symmetric / Open - Free & open only if project also open -->
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">node</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">endnode</Keywords>
+            <Keywords name="Folders in code2, open">beginmodelgeom newanim</Keywords>
+            <Keywords name="Folders in code2, middle">ambientkey diffusekey weights alphakey alphastartkey alphamidkey alphaendkey colorstartkey colormidkey colorendkey framestartkey frameendkey percentstartkey percentmidkey percentendkey sizestartkey sizemidkey sizeendkey sizestart_ykey sizemid_ykey sizeend_ykey orientationkey positionkey radiuskey scalekey selfillumcolorkey colorkey birthratekey verts faces tverts texindices1 tverts1</Keywords>
+            <Keywords name="Folders in code2, close">endmodelgeom doneanim</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Dirt null</Keywords>
+            <Keywords name="Keywords2">event newmodel donemodel filedependancy setsupermodel classification classification_unk1 ignorefog setanimationscale compress_quaternions headlink length transtime animroot</Keywords>
+            <Keywords name="Keywords3">name lightsaber other placeable parent unknown tile character item door effect gui</Keywords>
+            <Keywords name="Keywords4">dummy patch reference trimesh skin danglymesh animmesh light emitter aabb</Keywords>
+            <Keywords name="Keywords5">scriptloop01 scriptloop02 scriptloop03 scriptloop04 scriptloop05 scriptloop06 scriptloop07 scriptloop08 scriptloop09 scriptloop10 scriptloop11 scriptloop12 scriptloop13 scriptloop14 scriptloop15 scriptloop16 scriptloop18 scriptloop19 scriptloop20 talk tlklaugh tlksad tlkplead tlkforce tlknorm meditate kneel standup sitdown bow listen victory salute pausepsn pausetrd pausestl pauseinj pause2 pause1 stealth runinj run walkinj opened2 opened1 animloop01 animloop02 animloop03 animloop04 use powerup powerdown throwout throwback powered default on off on2off off2on die dead opening1 opening2 open closing1 closing2 closed open2close close2open trans damage impect duration cessation</Keywords>
+            <Keywords name="Keywords6">reattachable texturenames flaresizes flarepositions flarecolorshifts fps birthrate m_fRandomBirthRate velocity randvel mass particleRot spread lifeExp xsize ysize colorStart colorMid colorEnd percentStart percentMid percentEnd alphaStart alphaMid alphaEnd sizeStart sizeMid sizeEnd sizeStart_y sizeMid_y sizeEnd_y frameStart frameEnd bounce_co lightningDelay lightningRadius lightningScale lightningSubDiv lightningzigzag targetsize combinetime p2p_bezier2 p2p_bezier3 numcontrolpts controlptradius controlptdelay tangentspread tangentlength drag grav threshold blurlength deadspace blastRadius blastLength numBranches controlptsmoothing xgrid ygrid spawntype update blend chunkname twosidedtex loop renderorder m_bFrameBlending m_sDepthTextureName p2p p2p_sel affectedByWind m_isTinted bounce random inherit inheritvel inherit_local splat inherit_part depth_texture emitterflag13 roomlinks layoutposition verticaldisplacement shadowradius inv_count ambientonly nDynamicType affectDynamic flare lightpriority fadingLight flareradius color multiplier bmin bmax radius position orientation diffuse ambient transparencyhint lightmapped rotatetexture m_bIsBackgroundGeometry beaming dirt_enabled dirt_texture dirt_worldspace hologram_donotdraw endlist selfillumcolor alpha shadow render scale tangentspace</Keywords>
+            <Keywords name="Keywords7">refModel texture bitmap2 bitmap</Keywords>
+            <Keywords name="Keywords8">animateuv uvdirectionx uvdirectiony uvjitter uvjitterspeed</Keywords>
+            <Keywords name="Delimiters"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF000C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="6E6622" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="00A948" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0080C0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
